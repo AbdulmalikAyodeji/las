@@ -1,0 +1,149 @@
+.yul {
+    width: 70px;
+}
+
+.xz {
+    background-color: purple;
+    width: fit-content;
+    text-align: center;
+}
+
+.tol {
+    margin-left: 50px;
+}
+
+.val {
+    list-style-type: none;
+    display: flex;
+}
+
+.rol {
+    margin-left: 220px;
+}
+
+.go {
+    background-color: purple;
+}
+
+.tas {
+    background-color: goldenrod;
+    width: fit-content;
+    margin-left: 80px;
+    padding: 5px;
+}
+
+.hello {
+    margin-left: 70px;
+}
+
+.far {
+    color: red;
+}
+
+.formenu {
+    border: 2px solid purple;
+    padding: 0px;
+}
+
+.rat {
+    display: flex;
+    overflow: hidden;
+    flex-direction: row;
+    margin: 100px;
+    top: 70px;
+}
+
+.formenu {
+    margin: 10px;
+    padding: 20px;
+}
+
+.to {
+    background-color: white;
+}
+
+button {
+    background-color: gold;
+    border: 1px solid;
+}
+
+.bob {
+    background-color: gold;
+    margin-left: 70%;
+    bottom: 10px;
+}
+
+.col {
+    background-color: burlywood;
+    height: 400PX;
+    width: 150%;
+}
+
+.ded {
+    margin: 50px;
+    height: ;
+    width:150% ;
+}
+
+.forsr {
+    display: flex;
+    overflow: hidden;
+    flex-direction: row;
+    border: 1px solid;
+    margin-left: 350px;
+}
+
+.koke {
+    background-color: goldenrod;
+    padding: 20px;
+}
+
+.xol {
+    display: flex;
+    overflow: hidden;
+    flex-direction: row;
+    margin-left: 800px;
+}
+
+.pop {
+    margin-left: 70px;
+}
+
+.con {
+    color: blueviolet;
+}
+
+.kal {
+    width: 50px;
+}
+
+
+#zad {
+    color: blue;
+    font-size: 50px;
+}
+
+#mam {
+    color: red;
+    font-size: 50px;
+}
+
+#mac {
+    color: deeppink;
+    font-size: 50px;
+}
+
+#tem {
+    color: yellow;
+    font-size: 50px;
+}
+
+#zx {
+    color: darkred;
+    font-size: 50px;
+}
+
+#mn {
+    width: 100%;
+    height: 100%;
+}
