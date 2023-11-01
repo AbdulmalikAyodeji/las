@@ -7,6 +7,7 @@
     width: fit-content;
     text-align: center;
     font-size: 70px;
+    margin-left: 200px;
 }
 
 input[type="text"] {

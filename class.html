@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    table {
+        border: 2px solid red;
+    }
+
+    td {
+        padding: 10px;
+        border: 1px solid gold;
+    }
+
+    tr:nth-child(odd) td:nth-child(odd) {
+        background-color: blue;
+    }
+
+    tr:nth-child(odd) td:nth-child(even) {
+        background-color: gold;
+    }
+
+    tr:nth-child(even) td:nth-child(odd) {
+        background-color: blue;
+    }
+
+    tr:nth-child(even) td:nth-child(even) {
+        background-color: gold;
+    }
+
+    button {
+        background-color: gold;
+        border-radius: 70px;
+        padding: 50px;
+        animation-name: koko;
+        animation-duration: 4s;
+        animation-timing-function: ease;
+        animation-delay: 0s;
+        animation-iteration-count: infinite;
+        animation-direction: forwards;
+        position: absolute;
+
+    }
+
+    @keyframes koko {
+        0% {
+            margin-left: 0px;
+            background-color: chartreuse;
+             border-radius: 0px 0px 0px 0px;
+        }
+        25%{
+            margin-top: 0px;
+            margin-left: 100px;
+            background-color: deeppink;
+            border-radius: 0px 20px 20px 0px;
+        } 
+        50%{
+            margin-top: 100px;
+            margin-left: 100px;
+            background-color: fuchsia;
+            border-radius: 0px 20px 20px 20px;
+        }
+        75%{
+            margin-top: 100px;
+            margin-left: 0px;
+            background-color: black;
+            border-radius: 70px;
+        }
+        100% {
+            margin-top: 0px;
+            background-color: brown;
+            border-radius: 70px;
+        }
+    }
+    .fol {
+        padding: 0px;
+        animation: baba 4s ease 0s infinite forwards;
+       /* animation-name: baba;
+        animation-duration: 4s;
+        animation-timing-function: ease;
+        animation-delay: 0s;
+        animation-iteration-count: infinite;
+        animation-direction: forwards;*/
+        border-radius: 0;
+        border: 0px;
+        font-size: 100px;
+        background-color: none; 
+        position: absolute;       
+    }
+    @keyframes baba{
+        0%{
+            margin-left: 200px;
+
+        }
+        25%{
+            margin-left: 300px;
+        }
+
+    }
+</style>
+
+<body>
+
+    <p class="fol">🚙🚙</p>
+    <table>
+        <tr>
+            <td>malik</td>
+            <td>malik</td>
+            <td>malik</td>
+            <td>malik</td>
+        </tr>
+        <tr>
+            <td>malik</td>
+            <td>malik</td>
+            <td>malik</td>
+            <td>malik</td>
+        </tr>
+        <tr>
+            <td>malik</td>
+            <td>malik</td>
+            <td>malik</td>
+            <td>malik</td>
+        </tr>
+        <tr>
+            <td>malik</td>
+            <td>malik</td>
+            <td>malik</td>
+            <td>malik</td>
+        </tr>
+        <tr>
+            <td>malik</td>
+            <td>malik</td>
+            <td>malik</td>
+            <td>malik</td>
+        </tr>
+    </table><br><br><br>
+
+    <button>submit</button>
+
+</body>
+
+</html>
