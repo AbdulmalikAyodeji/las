@@ -6,23 +6,45 @@
     background-color: purple;
     width: fit-content;
     text-align: center;
+    font-size: 70px;
+}
+
+input[type="text"] {
+    width: 100%;
+}
+
+.cx {
+    margin: 30px;
+    text-decoration: none;
 }
 
 .tol {
-    margin-left: 50px;
+    margin-left: 60px;
+    width: fit-content;
+    border-radius: 4px;
+
 }
+.go {
+    background-color: purple;
+}
+
 
 .val {
     list-style-type: none;
     display: flex;
+    font-size: 30PX;
+    margin-left: 100px;
+    bottom: 50px;
+    text-decoration: none;
+}
+.val :hover{
+    color: firebrick;
+    border: 1px solid rebeccapurple;
+    width: fit-content;
 }
 
 .rol {
     margin-left: 220px;
-}
-
-.go {
-    background-color: purple;
 }
 
 .tas {
@@ -30,10 +52,37 @@
     width: fit-content;
     margin-left: 80px;
     padding: 5px;
+    top: 60px;
+    display: flex;
+    flex-direction: row;
+}
+.tass{
+    margin-top:19px ; 
+    padding-right: 5px;
+    background-color: white;
+    width:10px;
+    border-radius: 40px;
+    
 }
 
 .hello {
-    margin-left: 70px;
+    margin-left: 70px; 
+    border-left: 5px solid gold;
+    padding: 0px 0px 0px 10px;
+}
+
+.de {
+    background-color: black;
+    color: white;
+    text-align: center;
+
+
+}
+
+
+.sa {
+    margin: 50px;
+    padding: 0px;
 }
 
 .far {
@@ -43,23 +92,36 @@
 .formenu {
     border: 2px solid purple;
     padding: 0px;
+    width: 100%;
+    background: white;
 }
 
 .rat {
     display: flex;
     overflow: hidden;
+    width: 90%;
     flex-direction: row;
-    margin: 100px;
-    top: 70px;
+    margin-left: 6%;
+    bottom: 0px;
+}
+
+.form {
+    background: purple;
+    width: 50%;
 }
 
 .formenu {
-    margin: 10px;
-    padding: 20px;
+    margin: ;
+    padding: 6px 20px 6px 6px;
+    width: 100%;
+
 }
 
 .to {
     background-color: white;
+    display: flex;
+    float: right;
+    top: 30px;
 }
 
 button {
@@ -70,19 +132,25 @@ button {
 .bob {
     background-color: gold;
     margin-left: 70%;
-    bottom: 10px;
+    bottom: 30px;
+    border: none;
 }
 
 .col {
     background-color: burlywood;
-    height: 400PX;
-    width: 150%;
+    height: ;
+    width: 40%;
+    border: ;
+    padding: 30px;
 }
 
 .ded {
     margin: 50px;
-    height: ;
-    width:150% ;
+}
+
+#mn {
+    margin: 0px;
+    width: 100%;
 }
 
 .forsr {
@@ -90,8 +158,23 @@ button {
     overflow: hidden;
     flex-direction: row;
     border: 1px solid;
-    margin-left: 350px;
+    margin-left: 400px;
+    margin-top: 20px;
 }
+
+.wal {
+    margin: 0px;
+    width: 50%;
+}
+
+.form,
+.wal {
+    margin-right: 40px;
+}
+
+/* .wal {
+    margin: 10px;
+} */
 
 .koke {
     background-color: goldenrod;
@@ -108,6 +191,11 @@ button {
 .pop {
     margin-left: 70px;
 }
+.far{
+    color: red;
+     margin-left: 70px;
+}
+
 
 .con {
     color: blueviolet;
@@ -116,7 +204,6 @@ button {
 .kal {
     width: 50px;
 }
-
 
 #zad {
     color: blue;
@@ -146,4 +233,15 @@ button {
 #mn {
     width: 100%;
     height: 100%;
+}
+
+#bz {
+    color: chocolate;
+    font-size: 30px;
+    margin-left: 400px;
+    margin-right: 10px;
+}
+
+.fd {
+    font-size: 30px;
 }
