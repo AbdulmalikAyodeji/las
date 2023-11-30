@@ -91,10 +91,10 @@ input[type="text"] {
 }
 
 .formenu {
-    border: 2px solid purple;
+    border: 3px solid purple;
     padding: 0px;
     width: 100%;
-    background: white;
+    background:white;
 }
 
 .rat {
@@ -177,7 +177,7 @@ button {
     margin: 10px;
 } */
 
-.koke {
+.koke { 
     background-color: goldenrod;
     padding: 20px;
 }
@@ -195,7 +195,7 @@ button {
 .far{
     color: red;
      margin-left: 70px;
-}
+} 
 
 
 .con {
